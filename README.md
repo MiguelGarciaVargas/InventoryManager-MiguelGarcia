@@ -3,7 +3,7 @@
 Readme containing the SQL sentence for the database: inventario. The database contains a single table named `producto` to manage inventory data such as product name, quantity, purchase price, and public price.
 
 ```sql
-CREATE DATABASE `inventorymanager`;
+CREATE DATABASE `inventario`;
 ```
 
 ## Table: `producto`
