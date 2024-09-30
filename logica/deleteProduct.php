@@ -16,7 +16,7 @@ try {
     header("Location: http://localhost/InventoryManager/index.php");
     exit();
 } catch (PDOException $e) {
-    $_SESSION['error_message'] = "Error al eliminar el carro: " . $e->getMessage();
+    $_SESSION['error_message'] = "Error al eliminar" . $e->getMessage();
     header("Location: http://localhost/InventoryManager/index.php");
     exit();
 }
